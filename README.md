@@ -43,8 +43,9 @@ class NodirSafarov:
 
 |  Repo |  What |
 |---|---|
-| [`cybersecurity-notes`](https://github.com/nodirsafarov/cybersecurity-notes) | Personal knowledge base — OWASP Top 10, Active Directory, methodology, cheatsheets |
-| 🚧 *coming soon* | Custom tools for web reconnaissance and exploitation |
+| [`adenum`](https://github.com/nodirsafarov/adenum) | Active Directory universal enumerator — staged recon (IP → domain → users → creds), native AS-REP roasting, BloodHound auto-collection, MSSQL/WinRM/coercion checks, standalone HTML reports |
+| [`cybersecurity-notes`](https://github.com/nodirsafarov/cybersecurity-notes) | Personal knowledge base — PTES web pentest cheatsheet, OWASP Top 10, Active Directory, Red Team |
+| [`pentest-roadmap`](https://github.com/nodirsafarov/pentest-roadmap) | Practical zero-to-pentest roadmap — recon → exploitation → post-exploitation → reporting + curated resources & cheat sheets |
 
 > 🚧 **Continuously growing.** New machines solved, new payloads tested, new tools written — everything ends up here.
 
@@ -53,46 +54,42 @@ class NodirSafarov:
 ##  Arsenal
 
 ###  Web Application Pentesting
-<p>
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
-  <img src="https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLmap-000000?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/ffuf-000000?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/gobuster-000000?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nikto-000000?style=for-the-badge&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/wpscan-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
-</p>
+
+[![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)](https://portswigger.net/burp)
+[![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white)](https://www.zaproxy.org/)
+[![SQLmap](https://img.shields.io/badge/SQLmap-000000?style=for-the-badge&logo=python&logoColor=white)](https://github.com/sqlmapproject/sqlmap)
+[![ffuf](https://img.shields.io/badge/ffuf-000000?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/ffuf/ffuf)
+[![gobuster](https://img.shields.io/badge/gobuster-000000?style=for-the-badge&logo=go&logoColor=white)](https://github.com/OJ/gobuster)
+[![Nikto](https://img.shields.io/badge/Nikto-000000?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com/sullo/nikto)
+[![WPScan](https://img.shields.io/badge/wpscan-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://github.com/wpscanteam/wpscan)
 
 ###  Network & Active Directory
-<p>
-  <img src="https://img.shields.io/badge/Nmap-2E2E2E?style=for-the-badge&logo=nmap&logoColor=white" />
-  <img src="https://img.shields.io/badge/BloodHound-D32F2F?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrackMapExec-000000?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Impacket-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Evil_WinRM-2E2E2E?style=for-the-badge&logo=windowsterminal&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Responder-c12127?style=for-the-badge&logo=protonvpn&logoColor=white" />
-</p>
+
+[![Nmap](https://img.shields.io/badge/Nmap-2E2E2E?style=for-the-badge&logo=nmap&logoColor=white)](https://nmap.org/)
+[![BloodHound](https://img.shields.io/badge/BloodHound-D32F2F?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com/SpecterOps/BloodHound)
+[![CrackMapExec](https://img.shields.io/badge/CrackMapExec-000000?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Porchetta-Industries/CrackMapExec)
+[![Impacket](https://img.shields.io/badge/Impacket-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/fortra/impacket)
+[![Evil-WinRM](https://img.shields.io/badge/Evil_WinRM-2E2E2E?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://github.com/Hackplayers/evil-winrm)
+[![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
+[![Responder](https://img.shields.io/badge/Responder-c12127?style=for-the-badge&logo=protonvpn&logoColor=white)](https://github.com/lgandx/Responder)
 
 ###  Exploitation & Post-Exploitation
-<p>
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hydra-000000?style=for-the-badge&logo=protonmail&logoColor=white" />
-  <img src="https://img.shields.io/badge/John_the_Ripper-000000?style=for-the-badge&logo=hackaday&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hashcat-000000?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Netcat-000000?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/LinPEAS-2E2E2E?style=for-the-badge&logo=linux&logoColor=white" />
-</p>
+
+[![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)](https://github.com/rapid7/metasploit-framework)
+[![Hydra](https://img.shields.io/badge/Hydra-000000?style=for-the-badge&logo=protonmail&logoColor=white)](https://github.com/vanhauser-thc/thc-hydra)
+[![John the Ripper](https://img.shields.io/badge/John_the_Ripper-000000?style=for-the-badge&logo=hackaday&logoColor=white)](https://github.com/openwall/john)
+[![Hashcat](https://img.shields.io/badge/Hashcat-000000?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com/hashcat/hashcat)
+[![Netcat](https://img.shields.io/badge/Netcat-000000?style=for-the-badge&logo=gnubash&logoColor=white)](https://nmap.org/ncat/)
+[![LinPEAS](https://img.shields.io/badge/LinPEAS-2E2E2E?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/peass-ng/PEASS-ng)
 
 ###  Operating Systems & Languages
-<p>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Parrot_OS-09D3AC?style=for-the-badge&logo=parrotsecurity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-</p>
+
+[![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/)
+[![Parrot OS](https://img.shields.io/badge/Parrot_OS-09D3AC?style=for-the-badge&logo=parrotsecurity&logoColor=white)](https://parrotsec.org/)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://learn.microsoft.com/en-us/windows-server/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/en-us/powershell/)
 
 ---
 
@@ -142,20 +139,18 @@ secretsdump.py -just-dc corp.local/admin@dc01
 - [ ]  PortSwigger Web Security Academy advanced labs
 - [ ]  Building a personal pentest methodology playbook
 - [ ]  Studying for OSCP / eJPT / CRTP
-- [ ]  Custom Python tooling for web reconnaissance
+- [x]  Custom Python tooling for AD recon — [`adenum`](https://github.com/nodirsafarov/adenum) shipped
 - [ ]  HackTheBox machines — focus on Web and AD
 
 ---
 
 ##  Certifications
 
-<p align="left">
-  <img src="https://img.shields.io/badge/HTB_CJCA-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" />
-  <img src="https://img.shields.io/badge/CRTA-c12127?style=for-the-badge&logo=cyberdefenders&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cybersecurity-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white" />
-  <img src="https://img.shields.io/badge/TryHackMe_AoC_2025-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
-</p>
+[![HTB CJCA](https://img.shields.io/badge/HTB_CJCA-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com/path/preview/cjca)
+[![CRTA](https://img.shields.io/badge/CRTA-c12127?style=for-the-badge&logo=cyberdefenders&logoColor=white)](https://cyberwarfare.live/courses/certified-red-team-analyst-crta/)
+[![Google Cybersecurity](https://img.shields.io/badge/Google_Cybersecurity-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.coursera.org/professional-certificates/google-cybersecurity)
+[![OWASP Top 10](https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white)](https://owasp.org/www-project-top-ten/)
+[![TryHackMe AoC 2025](https://img.shields.io/badge/TryHackMe_AoC_2025-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/r/christmas)
 
 ---
 
