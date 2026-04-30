@@ -46,6 +46,7 @@ class NodirSafarov:
 | [`adenum`](https://github.com/nodirsafarov/adenum) | Active Directory universal enumerator — staged recon (IP → domain → users → creds), native AS-REP roasting, BloodHound auto-collection, MSSQL/WinRM/coercion checks, standalone HTML reports |
 | [`cybersecurity-notes`](https://github.com/nodirsafarov/cybersecurity-notes) | Personal knowledge base — PTES web pentest cheatsheet, OWASP Top 10, Active Directory, Red Team |
 | [`pentest-roadmap`](https://github.com/nodirsafarov/pentest-roadmap) | Practical zero-to-pentest roadmap — recon → exploitation → post-exploitation → reporting + curated resources & cheat sheets |
+| [`offensive-security-methodology`](https://github.com/nodirsafarov/offensive-security-methodology) | Per-phase methodology playbook — recon, exploitation, post-exploitation, Active Directory, cloud, reporting |
 
 > 🚧 **Continuously growing.** New machines solved, new payloads tested, new tools written — everything ends up here.
 
