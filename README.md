@@ -8,8 +8,9 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nodir-safarov-a717703a1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Coming%20Soon-9CA3AF?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/cyber_nodir)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/safarovnodir_)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nodirsafarov32@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=nodirsafarov&style=for-the-badge&color=c12127&label=PROFILE+VIEWS)](https://github.com/nodirsafarov)
 
@@ -47,6 +48,7 @@ class NodirSafarov:
 | [`cybersecurity-notes`](https://github.com/nodirsafarov/cybersecurity-notes) | Personal knowledge base — PTES web pentest cheatsheet, OWASP Top 10, Active Directory, Red Team |
 | [`pentest-roadmap`](https://github.com/nodirsafarov/pentest-roadmap) | Practical zero-to-pentest roadmap — recon → exploitation → post-exploitation → reporting + curated resources & cheat sheets |
 | [`offensive-security-methodology`](https://github.com/nodirsafarov/offensive-security-methodology) | Per-phase methodology playbook — recon, exploitation, post-exploitation, Active Directory, cloud, reporting |
+| [`securelife-bot`](https://github.com/nodirsafarov/securelife-bot) | AI-powered phishing detector Telegram bot — Uzbek + English, Gemini, privacy-first, helps people spot SMS/Telegram/email scams in their language |
 
 > 🚧 **Continuously growing.** New machines solved, new payloads tested, new tools written — everything ends up here.
 
@@ -155,29 +157,13 @@ secretsdump.py -just-dc corp.local/admin@dc01
 
 ---
 
-##  GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nodirsafarov&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=c12127&icon_color=c12127&text_color=ffffff" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nodirsafarov&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=c12127&text_color=ffffff" height="170" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=nodirsafarov&theme=github-dark-blue&hide_border=true&background=0D1117&ring=c12127&fire=c12127&currStreakLabel=c12127" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nodirsafarov&theme=darkhub&no-bg=true&no-frame=true&row=1&column=7&margin-w=10" />
-</div>
-
----
-
 <h2 align="center">  Find Me Online</h2>
 
 <p align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nodir%20Safarov-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nodir-safarov-a717703a1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Coming%20Soon-9CA3AF?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Telegram](https://img.shields.io/badge/Telegram-%40cyber__nodir-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/cyber_nodir)
+[![Instagram](https://img.shields.io/badge/Instagram-%40safarovnodir__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/safarovnodir_)
 [![Gmail](https://img.shields.io/badge/Gmail-nodirsafarov32%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nodirsafarov32@gmail.com)
 
 </p>
